@@ -339,9 +339,9 @@ B.Tech Information Technology
 
 AI | Machine Learning | Backend Development
 
-GitHub: https://github.com/<your-github>
+GitHub: https://github.com/sonuyaduvanshi55
 
-LinkedIn: https://linkedin.com/in/<your-linkedin>
+LinkedIn: [https://linkedin.com/in/](https://www.linkedin.com/in/sonu-yaduvanshi-559aa3251/)
 
 ---
 
