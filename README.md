@@ -1,37 +1,36 @@
-# Secure Machine Learning
+# Strategic Emailer – AI-Powered Cold Email Generator
 
-## Overview
+An AI-powered cold email generator that extracts job requirements from company career pages and generates personalized cold emails using Llama 3.1, LangChain, ChromaDB, Streamlit and RAG.
 
-This project demonstrates common security attacks against machine learning models and explores defense mechanisms to improve model robustness.
+## Features
 
-The project includes:
+- Extracts job descriptions from career page URLs
+- Uses LangChain for LLM workflow orchestration
+- Stores and retrieves portfolio projects using ChromaDB vector search
+- Matches top relevant portfolio links based on job requirements
+- Generates personalized cold emails automatically
+- Provides a Streamlit-based user interface
 
-- Poisoning Attack on an SVM classifier using the MNIST dataset
-- Adversarial (FGSM) Evasion Attack on a CNN using the Adversarial Robustness Toolbox (ART)
-- Adversarial Retraining as a defense against adversarial examples
-
-## Technologies Used
+## Tech Stack
 
 - Python
-- TensorFlow / Keras
-- SecML
-- Adversarial Robustness Toolbox (ART)
-- NumPy
-- Matplotlib
+- Llama 3.1 via Groq API
+- LangChain
+- ChromaDB
+- Streamlit
+- RAG
 
-## Dataset
+## Workflow
 
-- MNIST Handwritten Digits Dataset
+1. User enters a company career page URL.
+2. The system extracts job listings and requirements.
+3. Job content is processed using LangChain.
+4. Relevant portfolio projects are retrieved from ChromaDB.
+5. Llama 3.1 generates a personalized cold email.
 
-## Objectives
+## How to Run
 
-- Understand vulnerabilities in machine learning systems
-- Implement poisoning and adversarial attacks
-- Evaluate the impact of attacks on model accuracy
-- Improve robustness using adversarial retraining
+```bash
+pip install -r requirements.txt
+streamlit run app/main.py
 
-## Results
-
-- Demonstrated successful poisoning attacks that significantly reduced classifier accuracy.
-- Demonstrated FGSM adversarial attacks causing severe degradation in CNN performance.
-- Improved robustness through adversarial retraining.
